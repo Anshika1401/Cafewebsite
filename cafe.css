@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#navbar{
+    height: 80px;
+    background-color: rgba(251, 181, 193, 0.919);
+    text-align: center;
+    justify-content: space-between;
+    padding: 10px;
+    
+
+}
+#navbar a {
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    padding: 50px;
+    
+}
+#navbar button{
+    background-color: rgb(246, 62, 62);
+    align-items: right;
+    color: black;
+    border: solid;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+#navbar button:hover {
+    background-color: #ff4500;
+}
+#logo{
+    height: 70px;
+    align-items: left;
+    display: flex;
+    background-color: rgba(251, 181, 193, 0.919);
+
+}
+@media (max-width: 600px) {
+    #navbar {
+        flex-direction: column;
+    }
+
+    #navbar a, #navbar button {
+        margin: 5px 0;
+    }
+}
